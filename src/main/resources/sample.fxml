@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Sphere?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="windowAdviser" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="428.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.activity.service.Controller">
+   <children>
+      <Label fx:id="activityAdviserLabel" blendMode="LIGHTEN" layoutX="238.0" layoutY="31.0" style="-fx-background-color: #000000; -fx-border-color: #800000;" text="Activity adviser" textAlignment="JUSTIFY" textFill="#e44444">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="getActivity" layoutX="230.0" layoutY="188.0" mnemonicParsing="false" style="-fx-background-color: #008B8B;" text="I'm bored, get an activity!" />
+      <Sphere fx:id="adviserIcon" drawMode="LINE" layoutX="305.0" layoutY="127.0" radius="30.0" />
+      <Text fx:id="activity" fill="#d25a5a" layoutX="110.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do it:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

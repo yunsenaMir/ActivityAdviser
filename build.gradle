@@ -1,0 +1,31 @@
+plugins {
+    id 'application'
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
+group 'com.activity.service'
+version '1.0-SNAPSHOT'
+
+mainClassName = "com.activity.service.Main"
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "17"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation 'org.json:json:20171018'
+}
+
+test {
+    useJUnitPlatform()
+}
