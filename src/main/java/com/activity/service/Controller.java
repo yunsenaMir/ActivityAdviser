@@ -31,7 +31,7 @@ public class Controller {
             String output = getUrlContent("http://www.boredapi.com/api/activity");
             if (!output.isEmpty()) {
                 JSONObject obj = new JSONObject(output);
-                activity.setText("Do it: " + obj.get("activity/service"));
+                activity.setText("Do it: " + obj.get("activity"));
             }
         });
     }
