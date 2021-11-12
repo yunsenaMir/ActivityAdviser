@@ -2,7 +2,8 @@
 My first small pet-project using the javafx library. 
 
 It's an activity adviser, which generates random activities for users: 
-![](images/interfaceScreen.png)
+
+<img src="images/interfaceScreen.png" width="400"/>
 
 **How to use:**
 
@@ -12,7 +13,7 @@ To try the adviser, the following steps can be followed:
 2) Open project in IntellijIdea as a gradle project
 3) Run the task "run" of the application plugin in the Gradle tasks section
 
-![](images/gradleTaskScreen.png)
+<img src="images/gradleTaskScreen.png" width="300"/>
 
 4) Push the button "I'm bored, get an activity!" to get an activity.
 
