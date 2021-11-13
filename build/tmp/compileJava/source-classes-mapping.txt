@@ -1,4 +1,0 @@
-com/activity/service/Main.java
- com.activity.service.Main
-com/activity/service/Controller.java
- com.activity.service.Controller
